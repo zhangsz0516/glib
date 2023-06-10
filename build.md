@@ -14,3 +14,9 @@ $ meson --prefix=/home/zhangsz/rtt/glib/libs --cross-file cross_aarch64_musl.txt
 meson --prefix=/home/rtt/smart/libs/glib_libs --cross-file cross_aarch64_musl.txt builddir
 ninja -C builddir
 ninja -C builddir install
+
+
+## 编译静态库与动态库
+
+meson --prefix=/home/zhangsz/rtt/glib/libs -Ddefault_library=both --cross-file cross_aarch64_musl.txt builddir
+
