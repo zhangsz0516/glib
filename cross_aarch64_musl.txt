@@ -1,0 +1,19 @@
+[host_machine]
+system = 'linux'
+cpu_family = 'aarch64'
+cpu = 'aarch64'
+endian = 'little'
+
+[properties]
+c_args = []
+c_link_args = []
+
+[binaries]
+c = 'aarch64-linux-musleabi-gcc'
+cpp = 'aarch64-linux-musleabi-g++'
+ar = 'aarch64-linux-musleabi-ar'
+ld = 'aarch64-linux-musleabi-ld'
+objcopy = 'aarch64-linux-musleabi-objcopy'
+strip = 'aarch64-linux-musleabi-strip'
+pkgconfig = 'aarch64-linux-gnu-pkg-config'
+
